@@ -1,0 +1,87 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+html {
+	font-size: 62.5%;
+	
+	
+}
+
+
+.listado {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50px 2px;
+	border: 2px solid black;
+	
+	
+}
+
+.item {
+	list-style: none;
+	text-align: center;
+	font-size: 2.2rem;
+	width: 25%;
+	border: 2px solid black;
+	
+	
+}
+
+.lista-opiniones {
+	
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	list-style: none;
+	
+}
+
+.item-opiniones {
+	width: 25%;
+	font-size: 2.2rem;
+	
+	
+}
+
+.contenedor-cajita {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 230px);
+	gap: 40px;
+	padding: 40px;
+	justify-content: center;
+	
+}
+
+.caja {
+background-color: green;
+	width: 230px;
+	height: 345px;
+	line-height: 345px;
+	text-align: center;
+	
+}
+
+.pie {
+	width: 1300px;
+	height: 140px;
+	background-color: yellow;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+
+.item-pie {
+	
+	list-style: none;
+	font-size: 3.3rem;
+	width: 50%;
+	text-align: center;
+	
+}
