@@ -11,7 +11,7 @@ import { Boton } from './componentes/Boton'
 function App() {
 	const reiniciar = ()=> {
 		
-		console.log('usted a reiniciado un boton')
+		console.log('usted ha reiniciado un boton')
 	}
 	
 	const aumentar = ()=> {
