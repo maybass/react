@@ -22,14 +22,14 @@ function App() {
     <div className="App">
     <Header />
 	<Opiniones 
-	nombre="Agos"
-	edad="34"
-	apodo="Koki"
+	nombre="Hola"
+	edad="1"
+	apodo="hola"
 	/>
 	<Opiniones 
-	nombre="Osito"
+	nombre="holaaa"
 	edad="2"
-	apodo="Kito Koka"
+	apodo="holaaaaa"
 	/>
 	<Cajitas />
 	<Footer />
